@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cadenze Support</title>
+    <meta
+      name="description"
+      content="Help with Cadenze: getting your workouts in, heart-rate zones, maps, settings and how to get in touch."
+    />
+    <style>
+      :root {
+        --bg: #f2f2f7;
+        --card: #ffffff;
+        --fg: #1c1c1e;
+        --fg2: #5e5e63;
+        --accent: #0b7f49;
+        --line: #e5e5ea;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #000000;
+          --card: #1c1c1e;
+          --fg: #f2f2f7;
+          --fg2: #aeaeb2;
+          --accent: #34e07f;
+          --line: #38383a;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font:
+          17px/1.55 -apple-system,
+          BlinkMacSystemFont,
+          'SF Pro Text',
+          system-ui,
+          sans-serif;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 40px 16px 64px;
+      }
+      h1 {
+        font-size: 34px;
+        line-height: 1.15;
+        margin: 0 0 6px;
+      }
+      h2 {
+        font-size: 21px;
+        margin: 32px 0 8px;
+      }
+      .lead {
+        color: var(--fg2);
+        margin: 0 0 24px;
+      }
+      .contact {
+        background: var(--card);
+        border-radius: 18px;
+        padding: 16px 20px;
+      }
+      details {
+        background: var(--card);
+        border-radius: 14px;
+        padding: 12px 16px;
+        margin: 8px 0;
+      }
+      summary {
+        font-weight: 600;
+        cursor: pointer;
+        min-height: 28px;
+      }
+      details p {
+        margin: 8px 0 4px;
+      }
+      a {
+        color: var(--accent);
+      }
+      footer {
+        margin-top: 40px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        color: var(--fg2);
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Cadenze Support</h1>
+      <p class="lead">
+        Cadenze shows your workouts from Apple Health, with heart-rate zones in every view.
+      </p>
+
+      <div class="contact">
+        <strong>Get in touch</strong>
+        <p style="margin: 6px 0 0">
+          Questions, problems or ideas: write to
+          <a href="mailto:Tobias.Anderberg.App@gmail.com">Tobias.Anderberg.App@gmail.com</a>. Say
+          which iPhone and iOS version you use, and what you expected to see. Please don't send
+          health data or screenshots of it unless it's needed to explain the problem.
+        </p>
+      </div>
+
+      <h2>What you need</h2>
+      <p>
+        An iPhone with iOS 26 or later, and workouts in Apple Health. An Apple Watch records heart
+        rate, routes and the fitness readings Cadenze shows; workouts from other apps and devices
+        show too, with whatever data they recorded.
+      </p>
+
+      <h2>Questions</h2>
+
+      <details>
+        <summary>Cadenze shows no workouts</summary>
+        <p>
+          Cadenze can only show what Apple Health lets it read. Open Settings → Privacy &amp;
+          Security → Health → Cadenze and turn on everything under "Allow Cadenze to read", then go
+          back to Cadenze and pull down to refresh. If Apple Health has no workouts yet, record one
+          with your Apple Watch or a workout app first.
+        </p>
+      </details>
+
+      <details>
+        <summary>Older workouts are missing</summary>
+        <p>
+          Apple Health may share only recent data with an app. In Settings → Privacy &amp; Security
+          → Health → Cadenze, check that Cadenze may read all your recorded data, not just data from
+          now on.
+        </p>
+      </details>
+
+      <details>
+        <summary>There are no heart-rate zones</summary>
+        <p>
+          Zones need your maximum heart rate. Cadenze estimates it from your age (220 − age) when
+          your date of birth is in the Health app, or you can enter your own in Cadenze's Settings
+          under Heart rate. The workout also needs heart-rate data, which an Apple Watch records.
+        </p>
+      </details>
+
+      <details>
+        <summary>How are the zones set?</summary>
+        <p>
+          Each zone starts at a percentage of your maximum heart rate: 55, 72, 82, 87 and 92 % for
+          zones 1 to 5 by default. Change them in Settings under Zone boundaries; every view follows
+          at once. Time below zone 1 shows as "Time outside zones".
+        </p>
+      </details>
+
+      <details>
+        <summary>Why is the duration shorter than in the Fitness app?</summary>
+        <p>
+          Cadenze shows active time: the workout's time without pauses, so the minutes in each zone
+          add up to the duration shown. The total time, pauses included, is in the workout's
+          details.
+        </p>
+      </details>
+
+      <details>
+        <summary>Kilometres or miles?</summary>
+        <p>
+          Cadenze follows your iPhone's region. Change it in Settings → General → Language &amp;
+          Region.
+        </p>
+      </details>
+
+      <details>
+        <summary>Maps and privacy</summary>
+        <p>
+          Routes are drawn on Apple Maps, which receives the map area around the route. The route
+          itself never leaves your iPhone. Turn maps off in Cadenze's Settings with Show maps; the
+          route then shows as a plain line. More in the <a href="privacy.html">privacy policy</a>.
+        </p>
+      </details>
+
+      <details>
+        <summary>How do I delete my data?</summary>
+        <p>
+          Cadenze stores no health data, only its settings. Reset settings, at the bottom of
+          Cadenze's Settings, puts them back to their defaults; deleting the app removes them. Your
+          workouts stay in Apple Health, where you manage them.
+        </p>
+      </details>
+
+      <details>
+        <summary>Is Cadenze medical advice?</summary>
+        <p>
+          No. Cadenze is for training. Its zones, heart-rate estimate and fitness readings aren't
+          meant to diagnose or treat any condition.
+        </p>
+      </details>
+
+      <footer>Cadenze · <a href="privacy.html">Privacy Policy</a></footer>
+    </main>
+  </body>
+</html>

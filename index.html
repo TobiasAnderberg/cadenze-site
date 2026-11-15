@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cadenze</title>
+    <meta
+      name="description"
+      content="Cadenze shows your workouts from Apple Health, with heart-rate zones in every view."
+    />
+    <style>
+      :root {
+        --bg: #f2f2f7;
+        --card: #ffffff;
+        --fg: #1c1c1e;
+        --fg2: #5e5e63;
+        --accent: #0b7f49;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #000000;
+          --card: #1c1c1e;
+          --fg: #f2f2f7;
+          --fg2: #aeaeb2;
+          --accent: #34e07f;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font:
+          17px/1.55 -apple-system,
+          BlinkMacSystemFont,
+          "SF Pro Text",
+          system-ui,
+          sans-serif;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 40px 16px 64px;
+      }
+      h1 {
+        font-size: 34px;
+        margin: 0 0 6px;
+      }
+      p {
+        color: var(--fg2);
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+      nav a {
+        background: var(--card);
+        border-radius: 14px;
+        padding: 12px 18px;
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Cadenze</h1>
+      <p>
+        An iPhone app that shows your workouts from Apple Health, with
+        heart-rate zones in every view.
+      </p>
+      <nav>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </nav>
+    </main>
+  </body>
+</html>
